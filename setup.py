@@ -4,7 +4,7 @@ setup(
 	name = 'stacked_tensorial_nn',
 	version = '1.1.0',
 	packages = find_packages(),
-	url = '',
+	url = 'https://github.com/caleb399/stacked_tensorial_nn',
 	license = 'MIT',
 	author = 'caleb399',
 	author_email = 'c.g.wagner23@gmail.com',
