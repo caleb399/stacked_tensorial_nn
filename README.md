@@ -5,8 +5,7 @@
 This repository implements the neural network architecture from [(Wagner, 2023)](#References), called a "stacked tensorial neural network" (STNN).
 It also provides tools for applying the network to the PDE problem considered from the paper. 
 
-Roughly speaking, the STNN combines multiple tensorial neural networks [(Wang, et al, 2023)](#References) into a single network that seeks to represent the PDE solution over a range of parameters (e.g.,
-domain geometry). Capturing the parametric dependence is important because it means the network does not have to be retrained when the problem's parameters change.
+Roughly speaking, the STNN combines multiple tensorial neural networks [(Wang, et al, 2023)](#References) into a single network that seeks to represent the PDE solution over a range of parameters (e.g., domain geometry). Capturing the parametric dependence is important because it means the network does not have to be retrained when the problem's parameters change.
 
 ## Requirements
 
@@ -19,7 +18,7 @@ The current release (1.1.0) has been tested on Windows 10 using Python 3.11.5, T
 
 To install the latest version, download or clone the repository and run `pip install .` from the root
 directory. For example,
-> git clone \
+> git clone https://github.com/caleb399/stacked_tensorial_nn.git \
 > cd stnn \
 > pip install .
 
